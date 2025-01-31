@@ -6,15 +6,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="If you prefer to run WinGPT from the source code instead of the compiled application, follow these steps:">
       
       
-        <link rel="canonical" href="https://yixboost.github.io/documentation/wingpt/installation/">
+      
+        <link rel="canonical" href="https://yixboost.github.io/documentation/wingpt/running-from-source/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../installation/">
       
-      
-        <link rel="next" href="../running-from-source/">
       
       
       <link rel="icon" href="https://yixboost.github.io/assets/images/logos/yixboost/logo.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Installation - Yixboost Wiki</title>
+        <title>Running from Source - Yixboost Wiki</title>
       
     
     
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#wingpt-installation" class="md-skip">
+        <a href="#running-from-source-code" class="md-skip">
           Skip to content
         </a>
       
@@ -121,7 +121,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Installation
+              Running from Source
             
           </span>
         </div>
@@ -358,6 +358,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -374,7 +395,7 @@
           
   
   <span class="md-ellipsis">
-    Installation
+    Running from Source
   </span>
   
 
@@ -385,7 +406,7 @@
         
   
   <span class="md-ellipsis">
-    Installation
+    Running from Source
   </span>
   
 
@@ -407,27 +428,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#download" class="md-nav__link">
+  <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
-      Download
+      Prerequisites
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#steps-to-run" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      Steps to Run
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#system-requirements" class="md-nav__link">
+  <a href="#note" class="md-nav__link">
     <span class="md-ellipsis">
-      System Requirements
+      Note
     </span>
   </a>
   
@@ -437,27 +458,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../running-from-source/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Running from Source
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -497,27 +497,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#download" class="md-nav__link">
+  <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
-      Download
+      Prerequisites
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#steps-to-run" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      Steps to Run
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#system-requirements" class="md-nav__link">
+  <a href="#note" class="md-nav__link">
     <span class="md-ellipsis">
-      System Requirements
+      Note
     </span>
   </a>
   
@@ -549,7 +549,7 @@
     
     
     
-      <span class="md-tag">Installation</span>
+      <span class="md-tag">Source Code</span>
     
   
     
@@ -565,23 +565,34 @@
   
 
 
-<h1 id="wingpt-installation">✨ WinGPT Installation</h1>
-<h2 id="download">Download</h2>
-<ul>
-<li><a href="https://github.com/Yixboost/WinGPT/releases">Download WinGPT Windows ZIP</a></li>
-</ul>
-<h2 id="installation">Installation</h2>
+<h1 id="running-from-source-code">✨ Running from Source Code</h1>
+<p>If you prefer to run WinGPT from the source code instead of the compiled application, follow these steps:</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<p>Ensure you have the following installed on your system:
+- <a href="https://nodejs.org/">Node.js</a> (v18.0.0 or higher)
+- <a href="https://www.npmjs.com/">NPM</a> (comes bundled with Node.js)</p>
+<h3 id="steps-to-run">Steps to Run</h3>
 <ol>
-<li>Download the ZIP files from the release.</li>
-<li>Extract the <code>wingpt-windows.zip</code> file to your desired location.</li>
-<li>Double-click on <code>WinGPT Setup {version-name}.exe</code> to install the application.</li>
+<li><strong>Clone the Repository</strong>: 
+   Open your terminal or command prompt and run the following command to clone the repository:
+   <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Yixboost/WinGPT.git
+</code></pre></div></li>
+<li><strong>Navigate to the Project Directory</strong>:
+   Change to the project directory:
+   <div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>WinGPT
+</code></pre></div></li>
+<li><strong>Install Dependencies</strong>:
+   Install the required dependencies using NPM:
+   <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>install
+</code></pre></div></li>
+<li><strong>Run the Application</strong>:
+   Start the application by running:
+   <div class="highlight"><pre><span></span><code>npm<span class="w"> </span>start
+</code></pre></div></li>
 </ol>
-<h2 id="system-requirements">System Requirements</h2>
-<ul>
-<li>Windows 10 or higher</li>
-<li>At least 4 GB of RAM</li>
-<li>300 MB of available disk space</li>
-</ul>
+<p>After executing the above command, the WinGPT application should launch, and you can start using it directly from the source code.</p>
+<h3 id="note">Note</h3>
+<p>Make sure to check the terminal output for any errors during the installation process and resolve them as needed. If you encounter issues, feel free to open an issue on GitHub.</p>
 
 
 
@@ -624,7 +635,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview">
+          <a href="../installation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Installation">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -634,27 +645,11 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Overview
+                Installation
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../running-from-source/" class="md-footer__link md-footer__link--next" aria-label="Next: Running from Source">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Running from Source
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-            </div>
-          </a>
         
       </nav>
     

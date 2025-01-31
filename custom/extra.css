@@ -11,7 +11,19 @@
     -webkit-backdrop-filter: blur(10px);
   }
   
-  /* Border radius for buttons and images */
-  .md-content img, .md-button {
+/* Extra style for buttons and images */
+.md-content img, .md-button {
+    border-radius: 7px !important;
+    transition: transform 1s ease-out;
+  }
+  
+  .md-content img:hover, .md-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Extra style for search bar */
+  .md-search__form {
     border-radius: 7px !important;
   }
+
+  

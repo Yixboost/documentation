@@ -1,0 +1,17 @@
+/* Header with Transparancy */
+[data-md-color-scheme="slate"] .md-header {
+    background-color: rgba(63, 81, 181, 0.7); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  [data-md-color-scheme="default"] .md-header {
+    background-color: rgba(48, 63, 159, 0.9); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  
+  /* Border radius for buttons and images */
+  .md-content img, .md-button {
+    border-radius: 7px !important;
+  }

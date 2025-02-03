@@ -514,7 +514,8 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2025 Yixboost NL
+      Copyright &copy; 2025 Yixboost NL – <a href="#__consent">Change cookie settings</a>
+
     </div>
   
   
@@ -664,6 +665,14 @@
   defer
   init
 ></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  var feedbackWidget = document.querySelector('.md-feedback');
+  if (feedbackWidget) {
+    feedbackWidget.hidden = false;  // Zorgt ervoor dat het verborgen attribuut wordt verwijderd
+  }
+});
+</script>
 
   </body>
 </html>

@@ -1,11 +1,11 @@
 /* Header with Transparancy */
-[data-md-color-scheme="slate"] .md-header {
+[data-md-color-scheme="slate"] .md-header, [data-md-color-scheme="slate"] .md-tabs {
     background-color: rgba(63, 81, 181, 0.7); 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
   }
 
-  [data-md-color-scheme="default"] .md-header {
+  [data-md-color-scheme="default"] .md-header, [data-md-color-scheme="default"] .md-tabs {
     background-color: rgba(48, 63, 159, 0.9); 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);

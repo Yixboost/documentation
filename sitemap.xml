@@ -2,54 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://yixboost.github.io/documentation/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/errors/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/projects/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/pycraft/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/yixboost/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/privacy-policy/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/privacy-policy/de/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/privacy-policy/en/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/privacy-policy/fr/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/privacy-policy/nl/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/wingpt/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/wingpt/installation/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
     </url>
     <url>
          <loc>https://yixboost.github.io/documentation/wingpt/running-from-source/</loc>
-         <lastmod>2025-02-05</lastmod>
+         <lastmod>2025-03-04</lastmod>
+    </url>
+    <url>
+         <loc>https://yixboost.github.io/documentation/yixboost-games/</loc>
+         <lastmod>2025-03-04</lastmod>
+    </url>
+    <url>
+         <loc>https://yixboost.github.io/documentation/yixboost-games/alt-domains/</loc>
+         <lastmod>2025-03-04</lastmod>
     </url>
 </urlset>
